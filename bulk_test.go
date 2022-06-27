@@ -5,7 +5,7 @@ import (
 
 	"testing"
 
-	"github.com/qiniu/qmgo/operator"
+	"git hub.com/leimeng-go/qmgo/operator"
 	"github.com/stretchr/testify/require"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"

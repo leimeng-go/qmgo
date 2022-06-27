@@ -16,7 +16,7 @@ package qmgo
 import (
 	"context"
 	"errors"
-	opts "github.com/qiniu/qmgo/options"
+	opts "git hub.com/leimeng-go/qmgo/options"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"testing"
 

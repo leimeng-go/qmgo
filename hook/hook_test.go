@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/qiniu/qmgo/operator"
+	"git hub.com/leimeng-go/qmgo/operator"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

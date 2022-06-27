@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"fmt"
-	"github.com/qiniu/qmgo/operator"
+	"git hub.com/leimeng-go/qmgo/operator"
 	"testing"
 
 	"github.com/stretchr/testify/require"

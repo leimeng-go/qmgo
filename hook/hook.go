@@ -14,7 +14,7 @@
 package hook
 
 import (
-	"github.com/qiniu/qmgo/operator"
+	"git hub.com/leimeng-go/qmgo/operator"
 	"reflect"
 )
 

@@ -25,12 +25,12 @@
 
 ## 安装
 
-推荐方式是使用`go mod`，通过在源码中`import github.com/qiniu/qmgo` 来自动安装依赖。
+推荐方式是使用`go mod`，通过在源码中`import git hub.com/leimeng-go/qmgo` 来自动安装依赖。
 
 当然，通过下面方式同样可行：
 
 ```
-go get github.com/qiniu/qmgo
+go get git hub.com/leimeng-go/qmgo
 ```
 
 ## Usage
@@ -43,7 +43,7 @@ go get github.com/qiniu/qmgo
     import(
         "context"
     
-        "github.com/qiniu/qmgo"
+        "git hub.com/leimeng-go/qmgo"
     )
     
     ctx := context.Background()
@@ -209,7 +209,7 @@ go get github.com/qiniu/qmgo
     result, err = cli.DoTransaction(ctx, callback)
     ```
     
-    [关于事务的更多内容](https://github.com/qiniu/qmgo/wiki/Transactions)
+    [关于事务的更多内容](https://git hub.com/leimeng-go/qmgo/wiki/Transactions)
 
 - 预定义操作符
 
@@ -243,7 +243,7 @@ go get github.com/qiniu/qmgo
     _, err := cli.InsertOne(context.Background(), u)
     ```
     
-    [Hooks 详情介绍](<https://github.com/qiniu/qmgo/wiki/Hooks--(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)>)
+    [Hooks 详情介绍](<https://git hub.com/leimeng-go/qmgo/wiki/Hooks--(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)>)
 
 
 - 自动化更新fields
@@ -294,9 +294,9 @@ go get github.com/qiniu/qmgo
     // UpdateTimeAt 会被自动更新
     ```
   
-    [例子介绍](https://github.com/qiniu/qmgo/blob/master/field_test.go)
+    [例子介绍](https://git hub.com/leimeng-go/qmgo/blob/master/field_test.go)
 
-    [自动化 fields 详情介绍](https://github.com/qiniu/qmgo/wiki/Automatically-update-fields)
+    [自动化 fields 详情介绍](https://git hub.com/leimeng-go/qmgo/wiki/Automatically-update-fields)
   
 - `Validation tags` 基于tag的字段验证
     
@@ -370,7 +370,7 @@ coll.Find(bson.M{"age": 6}).Sort("weight").Limit(7).All(&batch)
 
 ## `Qmgo` vs `mgo`
 
-[Qmgo 和 Mgo 的差异](https://github.com/qiniu/qmgo/wiki/Differences-between-Qmgo-and-Mgo)
+[Qmgo 和 Mgo 的差异](https://git hub.com/leimeng-go/qmgo/wiki/Differences-between-Qmgo-and-Mgo)
 
 ## Contributing
 
@@ -381,4 +381,4 @@ coll.Find(bson.M{"age": 6}).Sort("weight").Limit(7).All(&batch)
 
 - 加入 [gitter room](https://gitter.im/qiniu/qmgo)
 
-- 加入 [qmgo discussions](https://github.com/qiniu/qmgo/discussions)
+- 加入 [qmgo discussions](https://git hub.com/leimeng-go/qmgo/discussions)
