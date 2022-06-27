@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/go-playground/validator/v10"
-	"git hub.com/leimeng-go/qmgo/operator"
+	"github.com/leimeng-go/qmgo/operator"
 )
 
 // use a single instance of Validate, it caches struct info

@@ -19,7 +19,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 	"testing"
 
-	opts "git hub.com/leimeng-go/qmgo/options"
+	opts "github.com/leimeng-go/qmgo/options"
 	"github.com/stretchr/testify/require"
 	"go.mongodb.org/mongo-driver/bson"
 )

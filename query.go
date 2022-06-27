@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"git hub.com/leimeng-go/qmgo/middleware"
-	"git hub.com/leimeng-go/qmgo/operator"
-	qOpts "git hub.com/leimeng-go/qmgo/options"
+	"github.com/leimeng-go/qmgo/middleware"
+	"github.com/leimeng-go/qmgo/operator"
+	qOpts "github.com/leimeng-go/qmgo/options"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/bsoncodec"
 	"go.mongodb.org/mongo-driver/mongo"

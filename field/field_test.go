@@ -17,7 +17,7 @@ import (
 	"testing"
 	"time"
 
-	"git hub.com/leimeng-go/qmgo/operator"
+	"github.com/leimeng-go/qmgo/operator"
 	"github.com/stretchr/testify/require"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

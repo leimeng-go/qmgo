@@ -209,7 +209,7 @@ go get git hub.com/leimeng-go/qmgo
     result, err = cli.DoTransaction(ctx, callback)
     ```
     
-    [关于事务的更多内容](https://git hub.com/leimeng-go/qmgo/wiki/Transactions)
+    [关于事务的更多内容](https://github.com/leimeng-go/qmgo/wiki/Transactions)
 
 - 预定义操作符
 
@@ -243,7 +243,7 @@ go get git hub.com/leimeng-go/qmgo
     _, err := cli.InsertOne(context.Background(), u)
     ```
     
-    [Hooks 详情介绍](<https://git hub.com/leimeng-go/qmgo/wiki/Hooks--(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)>)
+    [Hooks 详情介绍](<https://github.com/leimeng-go/qmgo/wiki/Hooks--(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)>)
 
 
 - 自动化更新fields
@@ -294,9 +294,9 @@ go get git hub.com/leimeng-go/qmgo
     // UpdateTimeAt 会被自动更新
     ```
   
-    [例子介绍](https://git hub.com/leimeng-go/qmgo/blob/master/field_test.go)
+    [例子介绍](https://github.com/leimeng-go/qmgo/blob/master/field_test.go)
 
-    [自动化 fields 详情介绍](https://git hub.com/leimeng-go/qmgo/wiki/Automatically-update-fields)
+    [自动化 fields 详情介绍](https://github.com/leimeng-go/qmgo/wiki/Automatically-update-fields)
   
 - `Validation tags` 基于tag的字段验证
     
@@ -370,7 +370,7 @@ coll.Find(bson.M{"age": 6}).Sort("weight").Limit(7).All(&batch)
 
 ## `Qmgo` vs `mgo`
 
-[Qmgo 和 Mgo 的差异](https://git hub.com/leimeng-go/qmgo/wiki/Differences-between-Qmgo-and-Mgo)
+[Qmgo 和 Mgo 的差异](https://github.com/leimeng-go/qmgo/wiki/Differences-between-Qmgo-and-Mgo)
 
 ## Contributing
 
@@ -381,4 +381,4 @@ coll.Find(bson.M{"age": 6}).Sort("weight").Limit(7).All(&batch)
 
 - 加入 [gitter room](https://gitter.im/qiniu/qmgo)
 
-- 加入 [qmgo discussions](https://git hub.com/leimeng-go/qmgo/discussions)
+- 加入 [qmgo discussions](https://github.com/leimeng-go/qmgo/discussions)

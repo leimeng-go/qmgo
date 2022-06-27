@@ -1,10 +1,10 @@
 package middleware
 
 import (
-	"git hub.com/leimeng-go/qmgo/field"
-	"git hub.com/leimeng-go/qmgo/hook"
-	"git hub.com/leimeng-go/qmgo/operator"
-	"git hub.com/leimeng-go/qmgo/validator"
+	"github.com/leimeng-go/qmgo/field"
+	"github.com/leimeng-go/qmgo/hook"
+	"github.com/leimeng-go/qmgo/operator"
+	"github.com/leimeng-go/qmgo/validator"
 )
 
 // callback define the callback function type

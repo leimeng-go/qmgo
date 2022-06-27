@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/qiniu/qmgo.png?branch=master)](https://travis-ci.org/qiniu/qmgo)
 [![Coverage Status](https://codecov.io/gh/qiniu/qmgo/branch/master/graph/badge.svg)](https://codecov.io/gh/qiniu/qmgo)
 [![Go Report Card](https://goreportcard.com/badge/git hub.com/leimeng-go/qmgo)](https://goreportcard.com/report/git hub.com/leimeng-go/qmgo)
-[![GitHub release](https://img.shields.io/github/v/tag/qiniu/qmgo.svg?label=release)](https://git hub.com/leimeng-go/qmgo/releases)
+[![GitHub release](https://img.shields.io/github/v/tag/qiniu/qmgo.svg?label=release)](https://github.com/leimeng-go/qmgo/releases)
 [![GoDoc](https://pkg.go.dev/badge/git hub.com/leimeng-go/qmgo?status.svg)](https://pkg.go.dev/git hub.com/leimeng-go/qmgo?tab=doc) 
 [![Join the chat at https://gitter.im/qiniu/qmgo](https://badges.gitter.im/qiniu/qmgo.svg)](https://gitter.im/qiniu/qmgo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -209,7 +209,7 @@ Or
     }
     result, err = cli.DoTransaction(ctx, callback)
     ````
-    [More about transaction](https://git hub.com/leimeng-go/qmgo/wiki/Transactions)
+    [More about transaction](https://github.com/leimeng-go/qmgo/wiki/Transactions)
 
 - Predefine operator keys
 
@@ -242,7 +242,7 @@ Or
     u := &User{Name: "Alice", Age: 7}
     _, err := cli.InsertOne(context.Background(), u)
     ````
-    [More about hooks](https://git hub.com/leimeng-go/qmgo/wiki/Hooks)
+    [More about hooks](https://github.com/leimeng-go/qmgo/wiki/Hooks)
 
 - Automatically fields
 
@@ -292,9 +292,9 @@ Or
     // UpdateTimeAt will update
     ```
 
-    Check [examples here](https://git hub.com/leimeng-go/qmgo/blob/master/field_test.go)
+    Check [examples here](https://github.com/leimeng-go/qmgo/blob/master/field_test.go)
 
-    [More about automatically fields](https://git hub.com/leimeng-go/qmgo/wiki/Automatically-update-fields)
+    [More about automatically fields](https://github.com/leimeng-go/qmgo/wiki/Automatically-update-fields)
 
 - Validation tags
 
@@ -370,7 +370,7 @@ coll.Find(bson.M{"age": 6}).Sort("weight").Limit(7).All(&batch)
 ```
 
 ## `Qmgo` vs `mgo`
-[Differences between qmgo and mgo](https://git hub.com/leimeng-go/qmgo/wiki/Differences-between-Qmgo-and-Mgo)
+[Differences between qmgo and mgo](https://github.com/leimeng-go/qmgo/wiki/Differences-between-Qmgo-and-Mgo)
  
 ## Contributing
 
@@ -379,5 +379,5 @@ The Qmgo project welcomes all contributors. We appreciate your help!
 ## Communication:
 
 - Join [gitter room](https://gitter.im/qiniu/qmgo)
-- Join [qmgo discussions](https://git hub.com/leimeng-go/qmgo/discussions)
+- Join [qmgo discussions](https://github.com/leimeng-go/qmgo/discussions)
 

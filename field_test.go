@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"git hub.com/leimeng-go/qmgo/field"
+	"github.com/leimeng-go/qmgo/field"
 	"github.com/stretchr/testify/require"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"

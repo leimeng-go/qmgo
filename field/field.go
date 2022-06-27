@@ -17,7 +17,7 @@ import (
 	"reflect"
 	"time"
 
-	"git hub.com/leimeng-go/qmgo/operator"
+	"github.com/leimeng-go/qmgo/operator"
 )
 
 var nilTime time.Time

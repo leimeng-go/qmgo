@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"git hub.com/leimeng-go/qmgo/options"
+	"github.com/leimeng-go/qmgo/options"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/bsoncodec"
 	"go.mongodb.org/mongo-driver/mongo"

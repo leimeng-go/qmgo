@@ -15,7 +15,7 @@ package qmgo
 
 import (
 	"context"
-	opts "git hub.com/leimeng-go/qmgo/options"
+	opts "github.com/leimeng-go/qmgo/options"
 	"go.mongodb.org/mongo-driver/mongo/options"
 
 	"go.mongodb.org/mongo-driver/bson"
