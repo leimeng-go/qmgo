@@ -64,3 +64,11 @@ func (d *Database) RunCommand(ctx context.Context, runCommand interface{}, opts 
 	}
 	return d.database.RunCommand(ctx, runCommand, option)
 }
+
+func (d *Database) RunCommandCursor(ctx context.Context, runCommand interface{}, opts ...opts.RunCommandOptions) (*mongo.Cursor, error) {
+	option := options.RunCmd()
+	if len(opts) > 0 && opts[0].RunCmdOptions != nil {
+		option = opts[0].RunCmdOptions
+	}
+	return d.database.RunCommandCursor(ctx, runCommand, option)
+}
